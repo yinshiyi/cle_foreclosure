@@ -41,6 +41,7 @@ while (test==report):
     myFile.close()
     if test!=report:
         import send_email
+        driver.save_screenshot('C:/Users/Shiyi Yin/Downloads/filename.png')
     sleep(300)
 # /html/body/div[2]/main/div[1]/div[4]/div/div[4]/div[1]/div[3]/div[2]/div[4]/div/picture/img
 # /html/body/div[2]/main/div[1]/div[4]/div/div[4]/div[1]/div[3]/div[2]/div[1]/div/picture/img
