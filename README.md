@@ -5,4 +5,8 @@ zillow is not up to date
 
 This script requries https://chromedriver.chromium.org/downloads
 
+## install selenium packge
+```
 pip install selenium
+```
+
