@@ -39,6 +39,8 @@ while (test==report):
     print(time.asctime(time.localtime(time.time())), file=myFile)
     print(' /n',file=myFile)
     myFile.close()
+    if test!=report:
+        import send_email
     sleep(300)
 # /html/body/div[2]/main/div[1]/div[4]/div/div[4]/div[1]/div[3]/div[2]/div[4]/div/picture/img
 # /html/body/div[2]/main/div[1]/div[4]/div/div[4]/div[1]/div[3]/div[2]/div[1]/div/picture/img
